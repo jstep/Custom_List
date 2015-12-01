@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
 
-        String[] items = {"ItemX1","ItemX2","ItemX3","ItemX4","ItemX5"};
+        String[] items = {"ItemX1","ItemX2","ItemX3","ItemX4","ItemX5","ItemX6","ItemX6","ItemX7","ItemX8","ItemX9"};
         ListAdapter listAdapter = new CustomAdapter(this, items);
         ListView listView = (ListView) findViewById(R.id.customListView);
         listView.setAdapter(listAdapter);
