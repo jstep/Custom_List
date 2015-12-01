@@ -1,2 +1,2 @@
-# Custom_List
+# Custom List
 Example of Android custom list view. 
