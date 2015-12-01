@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         String[] items = {"ItemX1","ItemX2","ItemX3","ItemX4","ItemX5"};
-        ListAdapter listAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, items);
+        ListAdapter listAdapter = new CustomAdapter(this, items);
         ListView listView = (ListView) findViewById(R.id.customListView);
         listView.setAdapter(listAdapter);
 
